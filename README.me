@@ -1,0 +1,97 @@
+Seminary Devotional Assigner
+Created: 9/4/2024
+Author: Jonathan Burgener
+Written in Java (Java version 17.0.12)
+
+-----------------------------------------------------------------------------------------------------------------
+
+This program will generate assignments for opening and closing prayers and the devotional for the desired number
+of days.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Input and outputs files are in the "Control_Files" directory.
+  • The output will be provided in "Control_Files/Records.txt"
+  • Add or remove students in "Control_Files/Students.txt"
+  • Input previous days in "Control_Files/Latest.txt"
+
+
+Previous Assignments input:
+
+    Enter list of assigned students into "Control_Files/Latest.txt". Best if starting with last time the pool of
+        unassigned students is reset.
+    Enter number of days desired to generate after "Days to generate:"
+
+    To input a day, put it in the format 00.Student.Student.Student.MM/DD/YYYY.<reset>
+      • The first number is the number of class days since the start of seminary
+        - (You can put in any random numbers if you don't care about days, just for formatting and to make sure
+            the output is in correct order)
+      • The first "Student" is the first name of the student giving the opening prayer.
+      • The second "Student" is the first name of the student giving the devotional.
+      • The final "Student" is the first name of the student giving the closing prayer.
+      • MM/DD/YYYY is the date of the assignment.
+        - (Exact date won't impact names provided. If the correct day is input, it will the correct day of the
+            week for each day will be provided)
+      • The last segment is optional. For the days when the pool of students that haven't been assigned a
+            devotional is reset, add ".reset" to the end of the line.
+
+
+Student Names Inputs:
+
+    Enter students names in "Control_Files/Students.txt"
+
+    Only characters from the english alphabet (A-Z, and a-z) will be collected.
+    Current names have numbering at the start for debugging purposes only.
+
+    To add a student but not have them be considered for an assignment put a "*" before the name.
+
+
+Output Analysis
+
+    The output can be found in "Control_Files/Records.txt"
+
+    The first line will indicate what each segment of a given lines means.
+    Each line outputted will include the days of class, names of the opening prayer, devotional, and the closing
+        prayer, the date, whether or not the "not assigned" list was reset, and the day of the week.
+
+    The output can be copied into the "Latest.txt" file, as is, with no issue.
+        (Make sure to only copy the actual assignment data and to keep the first three lines in the "Latest.txt"
+        file as is)
+
+
+Running the Program
+
+    To run this program a Java development environment or JVM is needed.
+
+    A nice development environment for java is IntelliJ Idea Community Edition
+
+    IntelliJ Idea:
+        Install IntelliJ Idea Community Edition from the link (scroll down a tiny bit)
+            https://www.jetbrains.com/idea/download/?section=windows
+
+        • Open the project
+        • Press Ctrl+Alt+Shift+S or go to File, Project Structure
+        • Under Project, make sure the SDK is set to Java version 17
+        • Press OK
+        • Build the project (Green hammer symbol)
+        • Run the program (Green triangle pointing to the right)
+
+
+    Java Virtual Machine:
+        Download Java 17
+            You can use the jdk-17 executable file to download Java version 17 on windows
+            Or you can go to https://www.oracle.com/java/technologies/downloads/#java17
+
+
+        Two options two run the program:
+
+        You can go into the artifacts file in the "out" folder and open “SeminaryDevotionalAssigner.jar” to run
+            it. And the results will be visible in the “Control_Files/Records.txt” file.
+
+        Command Line Terminal (If on Windows right click on start and click on “terminal”).
+          • Find the path to the directory containing the program mentioned above.
+          • In the terminal enter:
+                cd C:\Users\...\SeminaryDevotionalAssigner
+                java -jar out\artifacts\SeminaryDevotionalAssigner_jar\SeminaryDevotionalAssigner.jar
+
+        Doing this will show you the console output and the log as the program is running.

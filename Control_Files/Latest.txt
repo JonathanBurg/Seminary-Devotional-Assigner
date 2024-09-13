@@ -1,0 +1,15 @@
+DaysOfSeminary.OpeningPrayer.Devotional.ClosingPrayer.MM/DD/YYYY.<restart>
+Days to generate: 20
+------------------------------------
+12.Emma.Zac.Rachel.9/13/2024
+11.Shawn.Rachel.Ethan.9/12/2024
+10.Avery.Alex.Jon.9/11/2024
+9.Mabry.Emma.Alex.9/10/2024
+8.Avery.Ethan.Shawn.9/9/2024.restart
+7.Mason.Zac.Alex.9/6/2024
+6.Zac.Emma.Mabry.9/5/2024
+5.Emma.Shawn.Mason.9/4/2024
+4.Jonathan.Avery.Zac.8/30/2024
+3.Mabry.Alex.Rachel.8/29/2024
+2.Ethan.Jonathan.Mason.8/28/2024
+1.Alex.Mason.Rachel.8/27/2024

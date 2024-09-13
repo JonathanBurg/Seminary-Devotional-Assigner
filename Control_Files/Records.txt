@@ -1,0 +1,34 @@
+##.Opening.   Devotional.Closing.   DD/MM/YYYY.restart  WeekDay
+-----------------------------------------------------------------
+32.Mason.     Avery.     Alex.      10/11/2024         .Friday
+31.Mabry.     Emma.      Shawn.     10/10/2024         .Thursday
+30.Ethan.     Alex.      Avery.     10/09/2024.restart .Wednesday
+29.Zac.       Mabry.     Mason.     10/08/2024         .Tuesday
+28.Rachel.    Zac.       Alex.      10/07/2024         .Monday
+27.Emma.      Rachel.    Mabry.     10/04/2024         .Friday
+26.Jonathan.  Shawn.     Lizzie.    10/03/2024         .Thursday
+25.Zac.       Alex.      Ethan.     10/02/2024         .Wednesday
+24.Rachel.    Mason.     Avery.     10/01/2024         .Tuesday
+23.Mason.     Lizzie.    Mabry.     09/30/2024         .Monday
+22.Emma.      Avery.     Shawn.     09/27/2024         .Friday
+21.Alex.      Jonathan.  Ethan.     09/26/2024         .Thursday
+20.Zac.       Emma.      Rachel.    09/25/2024         .Wednesday
+19.Mabry.     Ethan.     Jonathan.  09/24/2024.restart .Tuesday
+18.Rachel.    Mason.     Alex.      09/23/2024         .Monday
+17.Mason.     Mabry.     Emma.      09/20/2024         .Friday
+16.Lizzie.    Shawn.     Avery.     09/19/2024         .Thursday
+15.Mabry.     Avery.     Ethan.     09/18/2024         .Wednesday
+14.Jonathan.  Lizzie.    Zac.       09/17/2024         .Tuesday
+13.Mason.     Jonathan.  Alex.      09/16/2024         .Monday
+12.Emma.      Zac.       Rachel.    09/13/2024         .Friday
+11.Shawn.     Rachel.    Ethan.     09/12/2024         .Thursday
+10.Avery.     Alex.      Jon.       09/11/2024         .Wednesday
+09.Mabry.     Emma.      Alex.      09/10/2024         .Tuesday
+08.Avery.     Ethan.     Shawn.     09/09/2024.restart .Monday
+07.Mason.     Zac.       Alex.      09/06/2024         .Friday
+06.Zac.       Emma.      Mabry.     09/05/2024         .Thursday
+05.Emma.      Shawn.     Mason.     09/04/2024         .Wednesday
+04.Jonathan.  Avery.     Zac.       08/30/2024         .Friday
+03.Mabry.     Alex.      Rachel.    08/29/2024         .Thursday
+02.Ethan.     Jonathan.  Mason.     08/28/2024         .Wednesday
+01.Alex.      Mason.     Rachel.    08/27/2024         .Tuesday
